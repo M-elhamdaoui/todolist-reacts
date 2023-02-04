@@ -1,0 +1,59 @@
+.todoController{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 20px 10px;
+    
+   
+    
+}
+
+.length{
+    font-size: 13px;
+    flex: 0.25;
+}
+.clearing{
+    
+    font-size: 13px;
+    flex: 0.25;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.clearing p{
+    cursor: pointer;
+     transition: all 0.3s ease-in-out;
+      user-select: none;
+    
+}
+.clearing p:hover{
+    color: hsl(220, 98%, 61%);
+}
+.Active{
+     color: hsl(220, 98%, 61%);
+}
+.controllers{
+    flex: 0.4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+
+
+}
+.controllers p{
+    cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     user-select: none;
+}
+.controllers p:hover{
+    color: hsl(220, 98%, 61%);
+}
+.todoController.dark{
+background-color: hsl(235, 24%, 19%);
+}
+.todoController.light{
+background-color: white;
+}

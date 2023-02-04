@@ -1,0 +1,50 @@
+.todoItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    width: 100%;
+    border-radius: 2px;
+    
+   
+   
+}
+.todoItem >p{
+    transition: all 0.3s ease-in-out;
+}
+.todoItem > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+}
+.todoItem  .circle{
+   cursor: pointer;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   border: 1px solid hsl(234, 39%, 85%) ;
+}
+span.completed{
+     background: linear-gradient(to right ,hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+p.completed{
+    text-align: center;
+    text-decoration-line: line-through;
+    opacity: 0.6;
+}
+.todoItem.dark{
+     background-color: hsl(235, 24%, 19%);
+      border-bottom: 1px solid hsl(234, 39%, 85%) ;
+}
+.todoItem.light{
+    color: hsl(235, 19%, 35%);
+     background-color: white;
+    border-bottom: 1px solid hsl(234, 39%, 85%)  ;
+    
+      
+}

@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    height:37.5vh ;
+    transition: all 0.3s ease-in-out;
+    
+   
+}
+.header.dark{
+    background: url("../../Assets/images/bg-desktop-dark.jpg") no-repeat center  center;
+     background-size: cover;
+}
+.header.light{
+    background: url(../../Assets/images/bg-desktop-light.jpg) no-repeat center center;
+    background-size: cover;
+}

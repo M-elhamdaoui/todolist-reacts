@@ -1,0 +1,12 @@
+.todoHeader{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   margin-bottom: 40px;
+   letter-spacing: 10px;
+}
+.todoHeader img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

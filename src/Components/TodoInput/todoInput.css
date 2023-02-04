@@ -1,0 +1,48 @@
+.todoInput{
+    display: flex;
+    height: 50px;
+    border-radius: 5px;
+}
+.todoInput > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+}
+.circle{
+    
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   border: 1px solid hsla(234, 39%, 85%, 0.377) ;
+}
+.todoInput input{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    
+
+}
+
+
+.todoInput.dark{
+    background-color: hsl(235, 24%, 19%);
+   
+}
+.todoInput.dark input{
+     color: hsl(234, 39%, 85%) ;
+}
+.todoInput.light{
+    background-color: white;
+    
+}
+.todoInput.light input{
+    color: hsl(235, 19%, 35%);
+}
+.todoInput.light .circle{
+    border-color: hsl(234, 39%, 85%);
+}
